@@ -1,6 +1,6 @@
 # RPC Backdoor Emulation
 
-This project is a basic emulation of an "RPC Backdoor" meant to emulate TTPs used by certain groups.
+This project is a basic implementation of an "RPC Backdoor" meant to emulate TTPs used by certain groups.
 
 The project contains an RPC server with five functions:
  * Execute a command with `cmd.exe /c` and the `CreateProcess` API call.
