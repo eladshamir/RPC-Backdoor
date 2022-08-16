@@ -1,0 +1,34 @@
+// File RpcServerInterface.idl
+import "oaidl.idl";
+[
+   // A unique identifier that distinguishes this interface from other interfaces.
+    uuid(fa161e81-6e93-4f41-961c-ee9c2e75de17),
+
+   // This is version 1.0 of this interface.
+   version(1.0)
+]
+interface RpcServerInterface // The interface is named RpcServerInterface
+{
+   void Execute(
+      [in] LPSTR* Command,
+      [out] LPSTR* Output
+   );
+
+   void ExecuteWithToken(
+       [in] LPSTR* Command,
+       [in] int ProcessId,
+       [out] LPSTR* Output
+   );
+
+   void Download(
+       [in] LPSTR* Path,
+       [out] LPSTR* Data
+   );
+
+   void Upload(
+       [in] LPSTR* Path,
+       [in] LPSTR* Data
+   );
+
+   void Shutdown(void);
+}

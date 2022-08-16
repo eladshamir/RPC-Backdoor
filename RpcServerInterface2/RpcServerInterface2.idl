@@ -1,0 +1,13 @@
+// File RpcServerInterface2.idl
+
+[
+   // A unique identifier that distinguishes this interface from other interfaces.
+    uuid(fa161e81-6e93-4f41-961c-ee9c2e75de18),
+
+   // This is version 1.0 of this interface.
+   version(1.0)
+]
+interface RpcServerInterface2 // The interface is named RpcServerInterface2
+{
+   void Shutdown2(void);
+}

@@ -1,0 +1,8 @@
+// File RpcServerInterface.acf
+[
+   // This interface will use an implicit binding handle named hRpcServerInterfaceBinding.
+   implicit_handle(handle_t hRpcServerInterfaceBinding)
+]
+interface RpcServerInterface // The interface is named RpcServerInterface
+{
+}
