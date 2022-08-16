@@ -3,8 +3,8 @@
 This project is a basic emulation of an "RPC Backdoor" meant to emulate TTPs used by certain groups.
 
 The project contains an RPC server with five functions:
- * Execute a command with `cmd.exe /c`and the `CreateProcess` API call.
- * Steal a token and execute a command with `cmd.exe /c`and the `CreateProcessWithTokenW` API call.
+ * Execute a command with `cmd.exe /c` and the `CreateProcess` API call.
+ * Steal a token and execute a command with `cmd.exe /c` and the `CreateProcessWithTokenW` API call.
  * Download a file from the remote host.
  * Upload a file to the remote host.
  * Terminate the RPC server.
